@@ -23,7 +23,7 @@ namespace jwt
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+
             Configuration = configuration;
             Log.Logger = new LoggerConfiguration()
              .Enrich.FromLogContext().MinimumLevel.Information()
@@ -40,7 +40,6 @@ namespace jwt
              }).WriteTo.Console()
              .CreateLogger();
 
-            Log.Information("ddd");
         }
 
         public IConfiguration Configuration { get; }
