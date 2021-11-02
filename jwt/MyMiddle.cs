@@ -22,10 +22,10 @@ namespace jwt
     {
         private readonly RequestDelegate _next;
         private readonly ILogger _logger;
-        public IPMiddleware(RequestDelegate next, ILoggerFactory loggerFactory)
+        public IPMiddleware(RequestDelegate next, ILogger<IPMiddleware> logger)
         {
             _next = next;
-            _logger = loggerFactory.CreateLogger<IPMiddleware>();
+            _logger = logger;
         }
 
        
@@ -34,7 +34,6 @@ namespace jwt
         {
             var info = new info();
 
-            _logger.LogInformation($"Client Ip:{context.Connection.RemoteIpAddress.ToString()}");
             // Call the next delegate/middleware in the pipeline
             context.Request.EnableBuffering();//启用倒带功能，就可以让 Request.Body 可以再次读取
             string body = "";
@@ -53,7 +52,7 @@ namespace jwt
 
 
             body = Regex.Unescape(body); //处理返回的字符比如unicode转为中文
-            _logger.LogInformation(body);
+       
             if (!body.Contains("sa")&&body!="")
             {
                 await context.Response.WriteAsync("不是sa不能登入");
