@@ -6,7 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 namespace jwt
 {
     public class Program
@@ -21,6 +22,6 @@ namespace jwt
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                }).UseServiceProviderFactory(new AutofacServiceProviderFactory());
     }
 }

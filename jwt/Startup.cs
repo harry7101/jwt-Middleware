@@ -1,3 +1,4 @@
+using IService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,11 +12,14 @@ using Serilog;
 using Serilog.Formatting.Json;
 using Serilog.Sinks.Elasticsearch;
 using Serilog.Sinks.File;
+using Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Features.ResolveAnything;
 
 namespace jwt
 {
@@ -27,7 +31,7 @@ namespace jwt
             Configuration = configuration;
             Log.Logger = new LoggerConfiguration()
              .Enrich.FromLogContext().MinimumLevel.Information()
-             .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://elasticsearch-client:9200/"))
+             .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://localhost:30200/"))
              {
                  AutoRegisterTemplate = true,
                  AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv7,
@@ -68,9 +72,25 @@ namespace jwt
                         ClockSkew = TimeSpan.FromMinutes(30),
                     };
                 });
-          
-           
+
+          //  services.AddTransient<IServcieTestA, ServiceTestA>();
+          //  services.AddSingleton<IServcieTestB, ServiceTestB>();
+            // services.AddScoped<IServcieTestA, ServiceTestA>();
+      
+
+
         }
+
+        public void ConfigureContainer(ContainerBuilder containerBuilder)
+        {
+            containerBuilder.RegisterType<ServiceTestA>().As<IServcieTestA>();
+           
+            containerBuilder.RegisterType<ServiceTestB>().As<IServcieTestB>();
+            containerBuilder.RegisterType<ServiceTestC>().As<IServcieTestC>().PropertiesAutowired();
+
+            containerBuilder.RegisterSource(new AnyConcreteTypeNotAlreadyRegisteredSource(t => t.IsAssignableTo<IServcieTestA>()));
+        }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)

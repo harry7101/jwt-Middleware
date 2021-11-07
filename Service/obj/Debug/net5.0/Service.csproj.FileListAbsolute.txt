@@ -1,0 +1,15 @@
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\Service.deps.json
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\Service.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\ref\Service.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\Service.pdb
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\IService.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\IService.pdb
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\ref\Service.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.pdb
