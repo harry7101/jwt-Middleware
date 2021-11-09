@@ -13,3 +13,5 @@ C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.cspr
 C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.dll
 C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\ref\Service.dll
 C:\Users\93727\source\repos\jwt-Middleware\Service\obj\Debug\net5.0\Service.pdb
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\Service\bin\Debug\net5.0\Common.pdb

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\jwt"
   ],
-  "SelectedNode": "\\jwt.sln",
+  "SelectedNode": "\\jwt\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

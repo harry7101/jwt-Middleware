@@ -10,3 +10,6 @@ C:\Users\93727\source\repos\jwt-Middleware\IService\obj\Debug\net5.0\IService.cs
 C:\Users\93727\source\repos\jwt-Middleware\IService\obj\Debug\net5.0\IService.dll
 C:\Users\93727\source\repos\jwt-Middleware\IService\obj\Debug\net5.0\ref\IService.dll
 C:\Users\93727\source\repos\jwt-Middleware\IService\obj\Debug\net5.0\IService.pdb
+C:\Users\93727\source\repos\jwt-Middleware\IService\bin\Debug\net5.0\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\IService\bin\Debug\net5.0\Common.pdb
+C:\Users\93727\source\repos\jwt-Middleware\IService\obj\Debug\net5.0\IService.csproj.CopyComplete

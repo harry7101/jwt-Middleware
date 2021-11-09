@@ -20,7 +20,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Features.ResolveAnything;
-
+using Common;
+using Autofac.Extras.DynamicProxy;
 namespace jwt
 {
     public class Startup
@@ -83,12 +84,13 @@ namespace jwt
 
         public void ConfigureContainer(ContainerBuilder containerBuilder)
         {
-            containerBuilder.RegisterType<ServiceTestA>().As<IServcieTestA>();
+            containerBuilder.RegisterType<ServiceTestA>().As<IServcieTestA>().EnableInterfaceInterceptors();
            
             containerBuilder.RegisterType<ServiceTestB>().As<IServcieTestB>();
             containerBuilder.RegisterType<ServiceTestC>().As<IServcieTestC>().PropertiesAutowired();
 
             containerBuilder.RegisterSource(new AnyConcreteTypeNotAlreadyRegisteredSource(t => t.IsAssignableTo<IServcieTestA>()));
+            containerBuilder.RegisterType(typeof(CustomerAutofacAop));
         }
 
 

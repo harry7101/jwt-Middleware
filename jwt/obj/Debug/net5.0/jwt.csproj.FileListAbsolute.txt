@@ -129,3 +129,7 @@ C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\IService.pdb
 C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Service.pdb
 C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Autofac.dll
 C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Common.dll
+C:\Users\93727\Source\Repos\jwt-Middleware\jwt\bin\Debug\net5.0\Common.pdb

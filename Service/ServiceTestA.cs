@@ -10,6 +10,7 @@ namespace Service
         }
         public string show(string msg)
         {
+            Console.WriteLine("执行ServiceTestA.show");
             return msg;
         }
     }

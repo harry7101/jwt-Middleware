@@ -1,0 +1,11 @@
+C:\Users\93727\source\repos\jwt-Middleware\Common\bin\Debug\net5.0\Common.deps.json
+C:\Users\93727\source\repos\jwt-Middleware\Common\bin\Debug\net5.0\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\Common\bin\Debug\net5.0\ref\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\Common\bin\Debug\net5.0\Common.pdb
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.pdb
