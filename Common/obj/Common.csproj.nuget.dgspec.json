@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\93727\\source\\repos\\jwt-Middleware\\Common\\Common.csproj": {}
+    "C:\\Users\\93727\\Source\\Repos\\jwt-Middleware\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\93727\\source\\repos\\jwt-Middleware\\Common\\Common.csproj": {
+    "C:\\Users\\93727\\Source\\Repos\\jwt-Middleware\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\93727\\source\\repos\\jwt-Middleware\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\93727\\Source\\Repos\\jwt-Middleware\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\93727\\source\\repos\\jwt-Middleware\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\93727\\Source\\Repos\\jwt-Middleware\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\93727\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\93727\\source\\repos\\jwt-Middleware\\Common\\obj\\",
+        "outputPath": "C:\\Users\\93727\\Source\\Repos\\jwt-Middleware\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,10 @@
             "Castle.Core": {
               "target": "Package",
               "version": "[4.4.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

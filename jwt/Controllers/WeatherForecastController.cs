@@ -1,4 +1,5 @@
-﻿using IService;
+﻿using Common;
+using IService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -50,6 +51,7 @@ namespace jwt.Controllers
         }
 
         [HttpGet]
+        [ActionFitter]
         public IEnumerable<WeatherForecast> Get()
         {
             var s = UserId;

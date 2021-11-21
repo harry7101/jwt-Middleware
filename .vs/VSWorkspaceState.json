@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\jwt"
+    "\\jwt",
+    "\\jwt\\Controllers"
   ],
-  "SelectedNode": "\\jwt\\Startup.cs",
+  "SelectedNode": "\\jwt\\Controllers\\LoginController.cs",
   "PreviewInSolutionExplorer": false
 }

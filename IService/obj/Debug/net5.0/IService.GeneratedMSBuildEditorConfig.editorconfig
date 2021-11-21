@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = IService
-build_property.ProjectDir = C:\Users\93727\source\repos\jwt-Middleware\IService\
+build_property.ProjectDir = C:\Users\93727\Source\Repos\jwt-Middleware\IService\

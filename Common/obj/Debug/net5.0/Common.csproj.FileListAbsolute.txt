@@ -9,3 +9,4 @@ C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.csproj
 C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.dll
 C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\ref\Common.dll
 C:\Users\93727\source\repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.pdb
+C:\Users\93727\Source\Repos\jwt-Middleware\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
